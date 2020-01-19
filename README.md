@@ -12,7 +12,7 @@ python main.py db_flight_dump.sql --rows 1000000 --output ../deploy-api/database
 python main.py db_user_dump.sql --rows 1000000 --output ../deploy-api/database/data-user/users.sql
 ```
 
-Afin de lancer le projet il vous faudra lancer la commande suivante 
+Afin de lancer le projet il vous faudra lancer la commande suivante en se mettant à la racine pour lancer la base de données destinées aux tests ou dans deploy-api pour la lancer avec beaucoup d'insértion 
 
 ```
 docker-compose up --build
