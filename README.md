@@ -1,11 +1,15 @@
 # Teaching-HEIGVD-AMT-2019-Project-Two
 
 ## Lancer le projet
-Afin de générler le million d'insertion dans la base de données il vous faudra lancer les commandes suivantes 
+Le docker-compose à la racine du projet permet de lancer la base de donnée permettant de run les tests Cucumber
+
+En allant dans le dossier deploy-api vous trouverez le docker-compose permettant de lancer la base de données destinée à l'utilisation du déploiement des APIs sur Traefik
+
+Afin de générler le million d'insertion dans la base de données il vous faudra lancer les commandes suivantes dans mysql-dummy-data.
 
 ```
-python main.py db_flight_dump.sql --rows 1000000 --output ../images/database/data-flight/flights.sql
-python main.py db_user_dump.sql --rows 1000000 --output ../images/database/data-user/users.sql
+python main.py db_flight_dump.sql --rows 1000000 --output ../deploy-api/database/data-flight/flights.sql
+python main.py db_user_dump.sql --rows 1000000 --output ../deploy-api/database/data-user/users.sql
 ```
 
 Afin de lancer le projet il vous faudra lancer la commande suivante 
