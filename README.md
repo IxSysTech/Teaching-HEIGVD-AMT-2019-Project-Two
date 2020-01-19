@@ -31,7 +31,3 @@ Afin de lancer les tests il faudra lancer le projet dans Intellij
 [Détail d'implémentation](https://github.com/IxSysTech/TrainingREST/blob/master/rapport/detail.md)
 
 [Test](https://github.com/IxSysTech/TrainingREST/blob/master/rapport/test.md)
-
-[Performance](https://github.com/panticne/Teaching-HEIGVD-AMT-2019-Project-One/blob/master/markdowns/test.md)
-
-[Bug](https://github.com/panticne/Teaching-HEIGVD-AMT-2019-Project-One/blob/master/markdowns/test.md)
